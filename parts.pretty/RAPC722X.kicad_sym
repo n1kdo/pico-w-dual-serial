@@ -1,0 +1,85 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "RAPC722X" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -5.08 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "RAPC722X" (id 1) (at -5.08 -6.35 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SWITCHCRAFT_RAPC722X" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "A" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "11 mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Switchcraft" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "RAPC722X_0_0"
+      (polyline
+        (pts
+          (xy 0.0 -2.286)
+          (xy 0.254 -1.27)
+          (xy -0.254 -1.27)
+          (xy 0.0 -2.286)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 5.08 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 0.0 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy -1.27 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -2.54) (xy -1.905 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.905 -1.905) (xy -2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 2.54) (xy -3.81 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 2.54) (xy -4.445 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.445 1.905) (xy -5.08 2.54)) (stroke (width 0.254))
+      )
+      (pin passive line (at 7.62 -2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SLEEVE"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "PIN"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SHUNT"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

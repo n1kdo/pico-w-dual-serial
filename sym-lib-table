@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "non-ionizing")(type "KiCad")(uri "${KIPRJMOD}/parts.pretty/non-ionizing.kicad_sym")(options "")(descr ""))
+  (lib (name "CC-BY-SA")(type "KiCad")(uri "${KIPRJMOD}/parts.pretty/CC-BY-SA.kicad_sym")(options "")(descr ""))
+)
