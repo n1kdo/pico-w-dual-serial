@@ -4,6 +4,8 @@ This is a simple board that supports two RS-232 serial ports (TXD & RXD _only_) 
 Raspberry PI Pico-W.  This is useful to internet-enable devices that support a serial 
 interface.
 
+This board is sized for a [Hammond Manufacturing 1591XXSFLBK](https://www.hammfg.com/part/1591XXSFLBK) enclosure.
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
