@@ -11,7 +11,7 @@
 | 7    | 1   | R1                         | 330 Ohm 1/4 watt through hole resistor | YAGEO                  | CFR-25JT-52-330R             |
 | 8    | 1   | SW1                        | Pushbutton switch                      | NKK Switches           | GB215AHB                     |
 | 9    | 1   | n/a                        | Switch cap                             | NKK Switches           | AT4063                       |
-| 10   | 1   | U1                         | Raspberry Pi Pico W                    | RPi_Pico:PicoW         | parts:RPi_PicoW_SMD_TH       |
+| 10   | 1   | U1                         | Raspberry Pi Pico W                    | Raspberry Pi Ltd       | SCO918                       |
 | 11   | 1   | U2                         | MAX3232 *or* ADM3202ANZ                | Analog Devices / Maxim | MAX3232ECPE+ *or* ADM3202ANZ |
 | 12   | 1   | U3                         | 5 volt linear voltage regulator        | STMicroelectronics     | L7805CV                      |
 | 13   | 1   | n/a                        | 16-pin DIP socket                      | Mill-Max               | 110-47-316-41-001000         |
@@ -28,7 +28,7 @@ The specified IC socket is a 'machined-pin' style socket.  Cheaper alternatives 
 There is no need to use a white LED, you can use whatever color you like.  I just think the white ones look cool.
 
 Almost all of these parts were ordered from Mouser.  I was surprised to see they are stocking the Raspberry PI Pico W.
-They were pretty scarce at first.  
+They were pretty scarce at first.  Also Digikey.
 
 The circuit board is up to you.  I have bought these from both [Oshpark](https://www.oshpark.com) and 
 [DKRed](https://www.digikey.com/en/resources/dkred) -- neither is inexpensive in small prototype runs.  I think the 
