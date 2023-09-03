@@ -12,7 +12,7 @@ This board is sized for a [Hammond Manufacturing 1591XXSFLBK](https://www.hammfg
 
 3-D image from Kicad 
 
-![](reality.jpg)
+<img src="reality.jpg" width="600">
 
 Real board!
 
